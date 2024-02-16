@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/images" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:text="Title : Stock market today: Live updatesCNBC"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_marginTop="10dp"
+        android:text="description:Stocks were little changed as Wall Street parsed through another round of inflation data in search for clues on when the Fed could start easing monetary policy."
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/url"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="url:https://www.cnn.com/2023/12/13/politics/supreme-court-to-decide-whether-to-restrict-abortion-drug-nationwide/index.html."
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
